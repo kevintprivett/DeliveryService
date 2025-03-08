@@ -6,16 +6,6 @@ class CoordinateService:
     """ Simple service to load and hold a coordinate lookup table.  Keys for
     the dictionary are the address string, similar to the other lookup tables
     in this project.
-
-    Constructor:
-    CoordinateService():
-        Constructs an instance to the coordinate service that will initiate
-        the coordinate lookup map if it hasn't already been done.
-
-    Instance Methods:
-    get_normalized_lat_long(address: str):
-        returns a tuple of the normalized latitude and longitude of the given
-        address.  Coordinates are normalized between [0, 1].
     """
     coordinates = {}
 

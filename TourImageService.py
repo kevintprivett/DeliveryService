@@ -7,13 +7,6 @@ import CoordinateService
 class TourImageService:
     """ Service that accepts a truck tour and produces a 100x100 image with
     all stops and route lines shown.
-
-    Instance Methods:
-    draw_tour(tour: List[str]):
-        Takes a tour as an ordered list of addresses, creates an image of the
-        addresses and route lines, and saves the image file to the local
-        directory.
-
     """
 
     file_number = 0
